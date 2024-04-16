@@ -52,6 +52,7 @@ export default class CalendarPicker extends Component {
     selectedRangeStartStyle: null,
     selectedRangeEndStyle: null,
     selectedRangeStyle: null,
+    renderDay: null
   };
 
   componentDidUpdate(prevProps) {
@@ -398,6 +399,7 @@ export default class CalendarPicker extends Component {
       selectedRangeStyle: this.props.selectedRangeStyle,
       selectedRangeEndStyle: this.props.selectedRangeEndStyle,
       customDatesStyles: this.props.customDatesStyles,
+      renderDay: this.props.renderDay
     };
   }
 

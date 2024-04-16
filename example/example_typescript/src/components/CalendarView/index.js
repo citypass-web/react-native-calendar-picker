@@ -48,7 +48,7 @@ export function CalendarView(props) {
                 previousTitleStyle={styles.fontSize}
                 nextTitleStyle={styles.fontSize}
                 headerWrapperStyle={styles.headerWrapper}
-
+                renderDay={()=><></>}
                 selectedDayTextStyle={styles.selectedDayTextStyle}
                 textStyle={styles.textStyle}
                 selectedDayTextColor={colors.lightText}

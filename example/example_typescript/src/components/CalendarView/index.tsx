@@ -5,7 +5,7 @@ import {
     Dimensions,
     Text
 } from 'react-native';
-import CalendarPicker from 'react-native-calendar-picker';
+import CalendarPicker from "react-native-calendar-picker";
 import { Moment } from "moment";
 
 import { week, monthFull } from "./config"
@@ -59,12 +59,12 @@ export function CalendarView(props: CalendarViewProps) {
                 previousTitleStyle={styles.fontSize}
                 nextTitleStyle={styles.fontSize}
                 headerWrapperStyle={styles.headerWrapper}
-
                 selectedDayTextStyle={styles.selectedDayTextStyle}
                 textStyle={styles.textStyle}
                 selectedDayTextColor={colors.lightText}
                 selectedRangeEndStyle={styles.selectedRangeEndStyle}
                 selectedRangeEndTextStyle={styles.selectedRangeEndTextStyle}
+
                 selectedRangeStartTextStyle={styles.selectedRangeStartTextStyle}
                 selectedRangeStartStyle={[styles.selectedRangeStartStyle, {
                     backgroundColor: !!!endDate ? 'transparent' : colors.background_opacity,
